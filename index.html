@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Erdem Soy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="welcome" data-translate="welcome">Erdem Soy</h1>
+
+        <h2 id="name" data-translate="name">Full Stack Web-Developer</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">Over Mij</a></li>
+                <li>|</li>
+                <li><a href="#projects">Projecten</a></li>
+                <li>|</li>
+                <li><a href="#contact">Contact</a></li>
+                <li>|</li>
+                <li class="dropdown">
+                    <div class="custom-select">
+                        <div class="select-box" onclick="toggleOptions()">
+                          <img id="selected-flag" src="nederland.png" alt="Selected Flag">
+                          <span id="selected-language" data-translate="language">Taal</span>
+                          <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="options-container">
+                          <div class="option" data-value="nl" data-img="nederland.png" data-text="Nederlands">Nederlands</div>
+                          <div class="option" data-value="en" data-img="england.png" data-text="English">English</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    
+      
+    <section id="about" class="fade-section">
+        <div class="about-container">
+            <h3 id="about" data-translate="about">Over Mij</h3>
+            <p id="aboutText" data-translate="aboutText">Van <span style="color: orange;">concept</span> tot <span style="color: #6f6ff5;">code</span> – Ik bouw dynamische en responsieve websites.</p>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <section id="projects" class="fade-section">
+        <h3 id="projects" data-translate="projects">Projecten</h3>
+        <ul>
+            <li>Project 1 - [Beschrijving]</li>
+            <li>Project 2 - [Beschrijving]</li>
+            <li>Project 3 - [Beschrijving]</li>
+        </ul>
+    </section>
+    
+    
+    <section>
+        <h3 id="contact" data-translate="contact">Contact</h3>
+        <p id="contactText" data-translate="contactText">Je kunt me bereiken via: <a href="mailto:erdem@example.com">erdem@example.com</a></p>
+    </section>
+</body>
+</html>
