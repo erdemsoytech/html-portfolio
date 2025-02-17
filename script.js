@@ -1,8 +1,9 @@
 function changeLanguage(language) {
     const translations = {
         nl: {
-            welcome: 'Erdem Soy',
-            name: 'Full Stack Web-Developer',
+            hello: 'Hallo daar!',
+            welcome: 'Een aspirant Full-Stack Web Developer die zich richt op het <span style="color: #6f6ff5;">coderen</span> en <span style="color: orange;">ontwikkelen</span> van dynamische websites.',
+            name: 'Mijn naam is <span style="color: #6f6ff5;">Erdem Soy..</span>',
             aboutme: 'Over Mij',
             projects: 'Projecten',
             contact: 'Contact',
@@ -16,8 +17,9 @@ function changeLanguage(language) {
             flagText: 'Nederlands'
         },
         en: {
-            welcome: 'Erdem Soy',
-            name: 'Full Stack Web-Developer',
+            hello: 'Hello there!',
+            welcome: 'An aspiring Full-Stack Web Developer who focuses on <span style="color: #6f6ff5;">coding</span> and <span style="color: orange;">developing</span> dynamic websites.',
+            name: 'My name is <span style="color: #6f6ff5;">Erdem Soy..</span>',
             aboutme: 'About Me',
             projects: 'Projects',
             contact: 'Contact',

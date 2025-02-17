@@ -9,32 +9,40 @@
 </head>
 <body>
     <header>
-        <h1 id="welcome" data-translate="welcome">Erdem Soy</h1>
-
-        <h2 id="name" data-translate="name">Full Stack Web-Developer</h2>
+        <a href="#" class="logo">
+            <img src="erdemlogo.png" alt="Logo van Erdem Soy">
+        </a>
+        
+        <div class="begin" data-translate="hello"> Hallo daar!</div>
+        <h1 id="welcome" data-translate="name">Mijn naam is <span style="color: #6f6ff5;">Erdem Soy..</span></h1>
+        <div class="subtitle1" data-translate="welcome">Een aspirant Full-Stack Web Developer die zich richt op het <span style="color: #6f6ff5;">coderen</span> en <span style="color: orange;">ontwikkelen</span> van dynamische websites. </div>
+        
+       
+        
         <nav class="navbar">
             <ul>
-                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#about" data-translate="aboutme">Over Mij</a></li>
                 <li>|</li>
-                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#projects" data-translate="projects">Projecten</a></li>
                 <li>|</li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" data-translate="contact">Contact</a></li>
                 <li>|</li>
                 <li class="dropdown">
                     <div class="custom-select">
                         <div class="select-box" onclick="toggleOptions()">
-                          <img id="selected-flag" src="nederland.png" alt="Selected Flag">
-                          <span id="selected-language" data-translate="language">Taal</span>
-                          <span class="arrow">&#9660;</span>
+                            <img id="selected-flag" src="nederland.png" alt="Selected Flag">
+                            <span id="selected-language" data-translate="language">Taal</span>
+                            <span class="arrow">&#9660;</span>
                         </div>
                         <div class="options-container">
-                          <div class="option" data-value="nl" data-img="nederland.png" data-text="Nederlands">Nederlands</div>
-                          <div class="option" data-value="en" data-img="england.png" data-text="English">English</div>
+                            <div class="option" data-value="nl" data-img="nederland.png" data-text="Nederlands">Nederlands</div>
+                            <div class="option" data-value="en" data-img="england.png" data-text="English">English</div>
                         </div>
                     </div>
                 </li>
             </ul>
         </nav>
+        
     </header>
 
     
